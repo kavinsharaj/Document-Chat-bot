@@ -45,20 +45,23 @@ Setup Instructions & Requirements
 
 Python 3.8 or above Together AI API Key
 
-Install dependencies
- ```pip install -r requirements.txt ``` 
-Configuration Set your Together AI API key:
+```python
+# Install dependencies
+pip install -r requirements.txt
 
-For linux/Mac
+# Configuration - Set your Together AI API key
 
- ```python export TOGETHER_API_KEY=your_api_key_here ``` 
-For Windows
+# For Linux/Mac
+export TOGETHER_API_KEY=your_api_key_here
 
- ```cmd set TOGETHER_API_KEY=your_api_key_here ``` 
-Run the App:
+# For Windows (Command Prompt)
+set TOGETHER_API_KEY=your_api_key_here
 
- ```python streamlit run main.py ``` 
-The UI will launch in your browser. Upload your ESG document and start asking questions.
+# Run the App
+streamlit run main.py
+
+# The UI will launch in your browser.
+# Upload your ESG document and start asking questions.
 
 Limitations
 
