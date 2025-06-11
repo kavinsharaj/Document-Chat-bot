@@ -64,6 +64,10 @@ streamlit run main.py
 # Upload your ESG document and start asking questions.
 
 
+
+
+
+
 Limitations
 
 Scalability: The current setup relies on local memory and storage, which may limit performance and flexibility in large-scale or multi-user deployments.
