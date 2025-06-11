@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-community
+langchain-chroma
+langchain-together
+sentence-transformers
+scikit-learn
+unstructured[all-docs]
