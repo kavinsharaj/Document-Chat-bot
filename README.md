@@ -30,11 +30,14 @@ Evaluation: Cosine similarity and LLM-based scoring
 
 Evaluation Metrics
 
-Metric	Description
-Relevance	Measures similarity between the user query and retrieved chunks
-Faithfulness	Checks if the answer is grounded in the retrieved content
-Confidence	Combines relevance and faithfulness into a single reliability score
+| **Metric**     | **Description**                                                                 |
+|----------------|---------------------------------------------------------------------------------|
+| Relevance      | Measures similarity between the user query and retrieved chunks                |
+| Faithfulness   | Checks if the answer is grounded in the retrieved content                      |
+| Confidence     | Combines relevance and faithfulness into a single reliability score            |
+
 These metrics ensure responses remain accurate and aligned with the source document.
+
 
 For each question, evaluation scores are tracked per session in a structured JSON format. This enables monitoring of chatbot performance over time and supports future improvements based on real usage data.
 
