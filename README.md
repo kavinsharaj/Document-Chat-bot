@@ -61,7 +61,8 @@ set TOGETHER_API_KEY=your_api_key_here
 streamlit run main.py
 
 # The UI will launch in your browser.
-# Upload your ESG document and start asking questions.```
+# Upload your ESG document and start asking questions.
+
 
 Limitations
 
